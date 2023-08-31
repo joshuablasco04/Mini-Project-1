@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Ubuntu:wght@300;400&display=swap');
 
 * {
-    font-family: poppins;
-    
+    font-family: poppins;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
-
 button {
     margin: 50px;
     height: 50px    ;
@@ -15,6 +16,24 @@ button {
 a {
     text-decoration: none;
     color: black;
+}
+.logout {
+    margin: 20px;
+    margin-left: 89%;   
+    width: 135px;
+    font-size: 25px;
+    text-align: center;
+}
+.inventory {
+    width: 100%;    
+    margin: 0;
+    overflow: auto;
+}
+.item-1 {
+    width: 10px;    
+}
+.item {
+    width: 150px;    
 }
 button:hover {
     background-color:dimgrey;
@@ -28,22 +47,12 @@ h2 :hover {
     background-color: dimgrey;
     color: white;
 }
-.logout {
-    margin: 20px;
-    margin-left: 89%;
-    border: 2px solid black;
+a:hover {
+    color: white;
 }
-.inventory {
-    width: 100%;
-    
-    margin: 0;
-    overflow: auto;
+.logout:hover {
+    background-color: dimgray;    
 }
-.item-1 {
-    width: 10px;
-    
-}
-.item {
-    width: 150px;
-    
+table th{
+    background-color:burlywood;    
 }
