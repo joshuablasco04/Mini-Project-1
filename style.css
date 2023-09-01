@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Ubuntu:wght@300;400&display=swap');
 
 * {
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url(bg.jpg);
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
     background-size: cover;
 }
