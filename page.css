@@ -19,7 +19,7 @@ a {
 }
 .logout {
     margin: 20px;
-    margin-left: 89%;   
+    margin-left: 100%;   
     width: 135px;
     font-size: 25px;
     text-align: center;
@@ -54,5 +54,15 @@ a:hover {
     background-color: dimgray;    
 }
 table th{
-    background-color:burlywood;    
+    background-color:lightgrey;  
+}
+@media (min-width: 250px){
+    .logout{
+        margin-left: 70%;
+    }
+    .text-end{
+        margin: auto;
+        padding-left: 40px;
+    }
+
 }
